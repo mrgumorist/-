@@ -1,42 +1,95 @@
-﻿<div class="wrap-login100 p-l-85 p-r-85 p-t-55 p-b-55">
-    <form class="login100-form validate-form flex-sb flex-w">
-        <span class="login100-form-title p-b-32">
-            Account Login
-        </span>
-        <span class="txt1 p-b-11">
-            Username
-        </span>
-        <div class="wrap-input100 validate-input m-b-36" data-validate="Username is required">
-            <input class="input100" type="text" name="username">
-            <span class="focus-input100"></span>
-        </div>
-        <span class="txt1 p-b-11">
-            Password
-        </span>
-        <div class="wrap-input100 validate-input m-b-12" data-validate="Password is required">
-            <span class="btn-show-pass">
-                <i class="fa fa-eye"></i>
-            </span>
-            <input class="input100" type="password" name="pass">
-            <span class="focus-input100"></span>
-        </div>
-        <div class="flex-sb-m w-full p-b-48">
-            <div class="contact100-form-checkbox">
-                <input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
-                <label class="label-checkbox100" for="ckb1">
-                    Remember me
-                </label>
-            </div>
-            <div>
-                <a href="#" class="txt3">
-                    Forgot Password?
-                </a>
-            </div>
-        </div>
-        <div class="container-login100-form-btn">
-            <button class="login100-form-btn">
-                Login
-            </button>
-        </div>
-    </form>
+﻿<style>
+    .video-container {
+        position: relative;
+    }
+
+    video {
+        height: auto;
+        vertical-align: middle;
+        width: 100%;
+    }
+
+    .overlay-desc {
+        background: rgba(0,0,0,0);
+        position: absolute;
+        height: auto;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .fortext {
+        color: aliceblue;
+        font-size: 3vw;
+    }
+    .qqqq {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        margin-right: inherit;
+        margin-left: inherit;
+    }
+</style>
+@*<div class="container1">
+<video id="video"  src="~/Content/index.mp4" class="w-100 h-100"  autoplay="autoplay" loop="loop" muted=""></video>
+<div class="overlay">
+
+    <p>Content Below Your Video</p>
+
 </div>
+</div>*@
+<div class="video-container">
+    <video autoplay="" loop="" muted="">
+        <source src="~/Content/index.mp4" type="video/mp4">
+    </video>
+    <div class="overlay-desc">
+        <h4 class="fortext" size="+2">
+            <b>Булінг</b> -<BR>
+            це агресивна свідома поведінка однієї або групи дітей стосовно іншої, що супроводжується регулярним фізичним і психологічним тиском та є гострою проблемою сучасності.
+            <BR>
+            <BR>
+            Причин - безліч, а жертвою може стати кожен, хто не вписався у рамки того чи іншого колективу.
+
+        </h4>
+       
+    </div>
+</div>
+@*<div class="container qqqq">
+    <div class="row">
+        <!-- Image -->
+        <div class="col-12 col-lg-6 ">
+           <img src="https://learning.ua/content/newsimg/494.png" style="width:100%;
+height:auto;   object-fit: contain; padding-left:0px; padding-right:0px" />
+
+        </div>
+
+        <!-- Add to cart -->
+        <div class="col-12 col-lg-6 ">
+
+            <img src="https://learning.ua/content/newsimg/494.png" style="width:100%;
+            height:auto;   object-fit: contain; padding-left:0px; padding-right:0px" />
+        </div>
+    </div>
+
+
+</div>*@
+    @*<div class="row">
+        <div class="col-lg-6 col-sm-12 qqqq">
+            <div class="card text-white bg-dark mb-3">
+                <div class="card-body qqqq">
+                    <h5 class="card-title">Dark card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-sm-12 qqqq">
+            <div class="card text-white bg-dark mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Dark card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+    </div>*@

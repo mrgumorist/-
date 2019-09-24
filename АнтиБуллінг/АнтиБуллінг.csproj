@@ -179,6 +179,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Contact-icon.png" />
     <Content Include="Content\icon.ico" />
+    <Content Include="Content\index.mp4" />
     <Content Include="Content\PagedList.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
